@@ -1,0 +1,9 @@
+{
+  "jobs": [
+    {
+      "name": "send-renewal-reminders",
+      "schedule": "0 9 * * *",
+      "function": "send-reminders"
+    }
+  ]
+}
